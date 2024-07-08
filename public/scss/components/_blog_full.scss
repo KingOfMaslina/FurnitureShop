@@ -1,0 +1,20 @@
+.fullblog{
+    width: 100%;
+    padding: 40px 0px;
+    &__text{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    &__img{
+        margin: auto;
+        display: block;
+    }
+    &__subtitle{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__title{
+        text-align: center;
+    }
+}

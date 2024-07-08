@@ -1,0 +1,26 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/footer";
+@import "./components/hero";
+@import "./components/category";
+@import "./components/about";
+@import "./components/blog";
+@import "./components/blog_list";
+@import "./components/blog_full";
+@import "./components/products";
+@import "./components/product_full";
+@import "./components/comments";
+
+// тестовые стили, удалите их
+.page__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--vh);
+}
